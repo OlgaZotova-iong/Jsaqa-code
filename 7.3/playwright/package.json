@@ -6,10 +6,9 @@
   "scripts": {
     "test": "playwright"
   },
-  "author": "",
+  "author": "olgazotova",
   "license": "ISC",
-  "devDependencies": {
-    "@playwright/test": "^1.12.3",
-    "playwright": "^1.12.3"
+  "dependencies": {
+    "@playwright/test": "^1.58.2"
   }
 }

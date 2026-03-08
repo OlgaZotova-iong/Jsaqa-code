@@ -1,0 +1,796 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - text: Пользуясь нашим сайтом, вы соглашаетесь с тем, что
+          - link "мы используем cookies" [ref=e6] [cursor=pointer]:
+            - /url: /legal/24
+          - text: и систему верификации запросов
+          - link "SmartCaptcha" [ref=e7] [cursor=pointer]:
+            - /url: https://yandex.ru/legal/smartcaptcha_notice/ru/
+          - text: .
+        - generic [ref=e8]:
+          - text: Ознакомиться с правилами работы
+          - link "рекомендательных технологий" [ref=e9] [cursor=pointer]:
+            - /url: /legal/441
+          - text: .
+      - button "ОК" [ref=e10] [cursor=pointer]
+    - generic [ref=e13]:
+      - img [ref=e15] [cursor=pointer]
+      - generic [ref=e17]:
+        - generic [ref=e18]: Вход в личный кабинет
+        - generic [ref=e20]:
+          - generic [ref=e22]:
+            - link [ref=e24] [cursor=pointer]:
+              - /url: https://id.sber.ru/CSAFront/oidc/authorize.do?response_type=code&client_type=PRIVATE&client_id=1faf7dd3-3fb3-4e89-a4db-825d96b5ad30&redirect_uri=https%3A%2F%2Fnetology.ru%2Fbackend%2Fapi%2Fsber_id%2Fcallback&state=ea982c9d24e383d6d35632a53bdd47f8&scope=openid%20mobile%20email%20gender%20birthdate%20name&nonce=5421f1fcc75d61b50f865ee8e729d1b2&personalization=false&logUid=d7f44ab7135045a4a2a6d7bf7d2dabbb&display=page
+              - generic:
+                - img
+            - generic: Войти cо Сбер ID
+          - generic [ref=e26]:
+            - button "Войти со СберБизнес ID" [ref=e27] [cursor=pointer]:
+              - generic [ref=e29]: Войти со СберБизнес ID
+            - generic [ref=e31]: Это безопасно и удобно. Ваши данные защищены шифрованием
+          - generic [ref=e32]:
+            - generic [ref=e33]: или
+            - generic [ref=e34]:
+              - textbox "Email" [ref=e36]: olgazotova1976@yandex.ru
+              - textbox "Пароль" [ref=e40]: Solnce_0802
+              - link "Восстановить пароль" [ref=e42] [cursor=pointer]:
+                - /url: /?modal=forgot
+              - button "Войти" [ref=e45] [cursor=pointer]
+          - generic [ref=e46]:
+            - generic [ref=e47]: Другие способы входа
+            - img [ref=e48]
+          - generic [ref=e50]:
+            - button [ref=e51] [cursor=pointer]
+            - button [ref=e52] [cursor=pointer]
+            - button [ref=e53] [cursor=pointer]
+            - button [ref=e54] [cursor=pointer]
+          - separator [ref=e55]
+          - generic [ref=e56]:
+            - text: Еще нет аккаунта?
+            - link "Зарегистрироваться" [ref=e57] [cursor=pointer]:
+              - /url: /?modal=sign_up&isSberAuthorizationExperiment=true
+    - generic [ref=e60]:
+      - generic [ref=e62]: "Встречаем весну красиво: скидки до 60% и курс в подарок"
+      - img [ref=e63]
+      - link "Условия акции" [ref=e64] [cursor=pointer]:
+        - /url: https://netology.ru/legal/806
+      - link "Выбрать курс" [ref=e65] [cursor=pointer]:
+        - /url: https://netology.ru/navigation?utm_campaign=brand_all_n-30059_2026_03_03_spring_main&utm_source=trigger&utm_medium=block
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e70]:
+          - link [ref=e72] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e74]:
+            - generic [ref=e75] [cursor=pointer]:
+              - generic:
+                - img
+              - text: Каталог курсов
+            - generic [ref=e76]:
+              - link "Учиться бесплатно" [ref=e77] [cursor=pointer]:
+                - /url: /free
+              - link "Медиа Нетологии" [ref=e78] [cursor=pointer]:
+                - /url: https://netology.ru/blog/
+          - link "Войти" [ref=e80] [cursor=pointer]:
+            - /url: https://netology.ru/?modal=sign_in
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - heading "Учим — и помогаем на каждом этапе" [level=1] [ref=e86]
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic:
+                      - generic [ref=e91]:
+                        - generic [ref=e92]: 4,88 из 5 — оценка нашей команды поддержки, согласно опросу 200 000 студентов
+                        - img [ref=e93]
+                      - generic [ref=e96]:
+                        - generic [ref=e97]: 1,5 млн человек выбрали курсы Нетологии для достижения своих целей
+                        - img [ref=e98]
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: 4 000 партнёров уже предложили практику и сделали офер лучшим студентам
+                        - img [ref=e103]
+                      - generic [ref=e106]:
+                        - generic [ref=e107]: Формат «живого» общения с экспертами, чтобы обсудить вопросы и сложные темы
+                        - img [ref=e108]
+                      - generic [ref=e111]:
+                        - generic [ref=e112]: 4,88 из 5 — оценка нашей команды поддержки, согласно опросу 200 000 студентов
+                        - img "4,88 из 5 — оценка нашей команды поддержки, согласно опросу 200 000 студентов" [ref=e113]
+                      - generic [ref=e116]:
+                        - generic [ref=e117]: 1,5 млн человек выбрали курсы Нетологии для достижения своих целей
+                        - img [ref=e118]
+                      - generic [ref=e121]:
+                        - generic [ref=e122]: 4 000 партнёров уже предложили практику и сделали офер лучшим студентам
+                        - img [ref=e123]
+                      - generic [ref=e126]:
+                        - generic [ref=e127]: Формат «живого» общения с экспертами, чтобы обсудить вопросы и сложные темы
+                        - img [ref=e128]
+                      - generic [ref=e131]:
+                        - generic [ref=e132]: 4,88 из 5 — оценка нашей команды поддержки, согласно опросу 200 000 студентов
+                        - img [ref=e133]
+                  - list [ref=e134]:
+                    - listitem [ref=e135]:
+                      - button "1" [ref=e136] [cursor=pointer]
+                    - listitem [ref=e137]:
+                      - button "2" [ref=e138] [cursor=pointer]
+                    - listitem [ref=e139]:
+                      - button "3" [ref=e140] [cursor=pointer]
+                    - listitem [ref=e141]:
+                      - button "4" [ref=e142] [cursor=pointer]
+                - generic [ref=e144] [cursor=pointer]: Популярные программы
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - link "Освоить профессию Освоить профессию Освоить профессию" [ref=e147] [cursor=pointer]:
+                    - /url: /navigation?level=neo&documents=diploma&documents=certificate&documents=guarantee
+                    - generic [ref=e148]: Освоить профессию
+                    - img "Освоить профессию" [ref=e150]
+                    - img "Освоить профессию" [ref=e152]
+                  - link "Освоить навыки Освоить навыки Освоить навыки" [ref=e153] [cursor=pointer]:
+                    - /url: /navigation?level=pro&documents=diploma&documents=certificate&documents=guarantee
+                    - generic [ref=e154]: Освоить навыки
+                    - img "Освоить навыки" [ref=e156]
+                    - img "Освоить навыки" [ref=e158]
+                  - link "Определиться с профессией Определиться с профессией Определиться с профессией" [ref=e159] [cursor=pointer]:
+                    - /url: /digital_proforientation
+                    - generic [ref=e160]: Определиться с профессией
+                    - img "Определиться с профессией" [ref=e162]
+                    - img "Определиться с профессией" [ref=e164]
+                - generic [ref=e165]:
+                  - link "Программы с вузами Программы с вузами Программы с вузами Программы с вузами" [ref=e166] [cursor=pointer]:
+                    - /url: /degree
+                    - generic [ref=e167]: Программы с вузами
+                    - img "Программы с вузами" [ref=e169]
+                    - img "Программы с вузами" [ref=e171]
+                    - img "Программы с вузами" [ref=e172]
+                  - link "Корпоративное обучение Корпоративное обучение Корпоративное обучение Корпоративное обучение" [ref=e173] [cursor=pointer]:
+                    - /url: /programs/b2b
+                    - generic [ref=e174]: Корпоративное обучение
+                    - img "Корпоративное обучение" [ref=e176]
+                    - img "Корпоративное обучение" [ref=e178]
+                    - img "Корпоративное обучение" [ref=e179]
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]:
+                    - link "Программирование 49 курсов Программирование" [ref=e185] [cursor=pointer]:
+                      - /url: /development
+                      - generic [ref=e186]: Программирование
+                      - generic [ref=e187]:
+                        - generic [ref=e188]: 49 курсов
+                        - img "Программирование" [ref=e189]
+                    - link "Аналитика 41 курс Аналитика" [ref=e190] [cursor=pointer]:
+                      - /url: /data-science
+                      - generic [ref=e191]: Аналитика
+                      - generic [ref=e192]:
+                        - generic [ref=e193]: 41 курс
+                        - img "Аналитика" [ref=e194]
+                    - link "Дизайн и UX 38 курсов Дизайн и UX" [ref=e195] [cursor=pointer]:
+                      - /url: /design
+                      - generic [ref=e196]: Дизайн и UX
+                      - generic [ref=e197]:
+                        - generic [ref=e198]: 38 курсов
+                        - img "Дизайн и UX" [ref=e199]
+                  - generic [ref=e200]:
+                    - link "Бизнес и управление 49 курсов Бизнес и управление" [ref=e201] [cursor=pointer]:
+                      - /url: /management
+                      - generic [ref=e202]: Бизнес и управление
+                      - generic [ref=e203]:
+                        - generic [ref=e204]: 49 курсов
+                        - img "Бизнес и управление" [ref=e205]
+                    - link "Маркетинг 37 курсов Маркетинг" [ref=e206] [cursor=pointer]:
+                      - /url: /marketing
+                      - generic [ref=e207]: Маркетинг
+                      - generic [ref=e208]:
+                        - generic [ref=e209]: 37 курсов
+                        - img "Маркетинг" [ref=e210]
+                    - link "Финансы и инвестиции 15 курсов Финансы и инвестиции" [ref=e211] [cursor=pointer]:
+                      - /url: /finance
+                      - generic [ref=e212]: Финансы и инвестиции
+                      - generic [ref=e213]:
+                        - generic [ref=e214]: 15 курсов
+                        - img "Финансы и инвестиции" [ref=e215]
+                - link "Полный каталог Полный каталог" [ref=e216] [cursor=pointer]:
+                  - /url: /navigation
+                  - generic [ref=e217]: Полный каталог
+                  - img "Полный каталог" [ref=e219]
+              - generic [ref=e220]:
+                - link "Нейросети 8 курсов Нейросети" [ref=e221] [cursor=pointer]:
+                  - /url: /programs/ai-courses
+                  - generic [ref=e222]: Нейросети
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: 8 курсов
+                    - img "Нейросети" [ref=e225]
+                - link "Маркетплейсы 7 курсов Маркетплейсы" [ref=e226] [cursor=pointer]:
+                  - /url: /marketplaces
+                  - generic [ref=e227]: Маркетплейсы
+                  - generic [ref=e228]:
+                    - generic [ref=e229]: 7 курсов
+                    - img "Маркетплейсы" [ref=e230]
+                - link "Медицина и здоровье 23 курса Медицина и здоровье" [ref=e231] [cursor=pointer]:
+                  - /url: /medicine
+                  - generic [ref=e232]: Медицина и здоровье
+                  - generic [ref=e233]:
+                    - generic [ref=e234]: 23 курса
+                    - img "Медицина и здоровье" [ref=e235]
+                - link "Психология 5 курсов Психология" [ref=e236] [cursor=pointer]:
+                  - /url: /programs/psychology
+                  - generic [ref=e237]: Психология
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: 5 курсов
+                    - img "Психология" [ref=e240]
+          - generic [ref=e241]:
+            - heading "Наши самые популярные программы" [level=2] [ref=e242]
+            - generic [ref=e243]:
+              - generic [ref=e244] [cursor=pointer]: Профессии и навыки
+              - generic [ref=e245] [cursor=pointer]: Бесплатные программы
+            - generic [ref=e246]:
+              - generic [ref=e249]:
+                - link [ref=e253] [cursor=pointer]:
+                  - /url: //netology.ru/programs/developer1c_ultimate
+                  - generic [ref=e254]:
+                    - generic [ref=e255]:
+                      - generic [ref=e256]:
+                        - generic [ref=e257]: Программирование
+                        - generic [ref=e258]: Профессия
+                      - generic [ref=e259]:
+                        - img [ref=e260]
+                        - generic [ref=e262]: "- 40%"
+                    - heading [level=3] [ref=e263]: "1C-программист: расширенный курс"
+                    - heading [level=4] [ref=e264]: Старт 10 марта / 16 месяцев
+                    - img [ref=e265]
+                - link [ref=e269] [cursor=pointer]:
+                  - /url: //netology.ru/programs/graphic-design-ultimate
+                  - generic [ref=e270]:
+                    - generic [ref=e271]:
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: Дизайн и UX
+                        - generic [ref=e274]: Профессия
+                      - generic [ref=e275]:
+                        - img [ref=e276]
+                        - generic [ref=e278]: "- 40%"
+                    - heading [level=3] [ref=e279]: "Графический дизайнер: расширенный курс"
+                    - heading [level=4] [ref=e280]: Старт 10 марта / 17 месяцев
+                    - img [ref=e281]
+                - link [ref=e285] [cursor=pointer]:
+                  - /url: //netology.ru/programs/excel
+                  - generic [ref=e286]:
+                    - generic [ref=e287]:
+                      - generic [ref=e288]:
+                        - generic [ref=e289]: Аналитика
+                        - generic [ref=e290]: Курс
+                      - generic [ref=e291]:
+                        - img [ref=e292]
+                        - generic [ref=e294]: "- 40%"
+                    - heading [level=3] [ref=e295]: "Excel: от основ до анализа данных"
+                    - heading [level=4] [ref=e296]: Старт 16 марта / 9 недель
+                    - img [ref=e297]
+                - link [ref=e301] [cursor=pointer]:
+                  - /url: //netology.ru/programs/dizajner-intererov
+                  - generic [ref=e302]:
+                    - generic [ref=e303]:
+                      - generic [ref=e304]:
+                        - generic [ref=e305]: Дизайн и UX
+                        - generic [ref=e306]: Профессия
+                      - generic [ref=e307]:
+                        - img [ref=e308]
+                        - generic [ref=e310]: "- 40%"
+                    - heading [level=3] [ref=e311]: Дизайнер интерьера
+                    - heading [level=4] [ref=e312]: Старт 12 марта / 12 месяцев
+                    - img [ref=e313]
+                - link [ref=e317] [cursor=pointer]:
+                  - /url: //netology.ru/programs/prodatascience
+                  - generic [ref=e318]:
+                    - generic [ref=e319]:
+                      - generic [ref=e320]:
+                        - generic [ref=e321]: Аналитика
+                        - generic [ref=e322]: Профессия
+                      - generic [ref=e323]:
+                        - img [ref=e324]
+                        - generic [ref=e326]: "- 50%"
+                    - heading [level=3] [ref=e327]: "Data Scientist: расширенный курс"
+                    - heading [level=4] [ref=e328]: Старт 10 марта / 18 месяцев
+                    - img [ref=e329]
+                - link [ref=e333] [cursor=pointer]:
+                  - /url: //netology.ru/programs/senior-internet-marketer
+                  - generic [ref=e334]:
+                    - generic [ref=e335]:
+                      - generic [ref=e336]:
+                        - generic [ref=e337]: Маркетинг
+                        - generic [ref=e338]: Профессия
+                      - generic [ref=e339]:
+                        - img [ref=e340]
+                        - generic [ref=e342]: "- 40%"
+                    - heading [level=3] [ref=e343]: "Интернет-маркетолог: расширенный"
+                    - heading [level=4] [ref=e344]: Старт 20 марта / 14 месяцев
+                    - img [ref=e345]
+                - link [ref=e349] [cursor=pointer]:
+                  - /url: //netology.ru/programs/professiya-menezher-marketplejsov
+                  - generic [ref=e350]:
+                    - generic [ref=e351]:
+                      - generic [ref=e352]:
+                        - generic [ref=e353]: Маркетинг
+                        - generic [ref=e354]: Курс
+                      - generic [ref=e355]:
+                        - img [ref=e356]
+                        - generic [ref=e358]: "- 40%"
+                    - heading [level=3] [ref=e359]: "Менеджер по маркетплейсам: расширенный"
+                    - heading [level=4] [ref=e360]: Старт 9 марта / 6 месяцев
+                    - img [ref=e361]
+                - link [ref=e365] [cursor=pointer]:
+                  - /url: //netology.ru/programs/trading
+                  - generic [ref=e366]:
+                    - generic [ref=e367]:
+                      - generic [ref=e368]:
+                        - generic [ref=e369]: Маркетинг
+                        - generic [ref=e370]: Курс
+                      - generic [ref=e371]:
+                        - img [ref=e372]
+                        - generic [ref=e374]: "- 40%"
+                    - heading [level=3] [ref=e375]: Основы трейдинга и инвестиций
+                    - heading [level=4] [ref=e376]: Старт 24 марта / 5 месяцев
+                    - img [ref=e377]
+              - img [ref=e379] [cursor=pointer]
+          - generic [ref=e381]:
+            - heading "Если не знаете, с чего начать" [level=2] [ref=e382]
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - heading "Определитесь с профессией на экспресс-консультации" [level=3] [ref=e388]
+                - heading "Заполните анкету и бесплатно получите рекомендации от нейросети Нетологии" [level=4] [ref=e389]
+                - generic [ref=e390] [cursor=pointer]: Подобрать профессию
+                - img [ref=e391]
+              - generic [ref=e392]:
+                - heading "Начните с бесплатных материалов" [level=3] [ref=e395]
+                - list [ref=e396]:
+                  - listitem [ref=e397]: Курсы
+                  - listitem [ref=e398]: Открытые занятия
+                  - listitem [ref=e399]: Гайды и чек-листы
+                - link "Начать бесплатно" [ref=e400] [cursor=pointer]:
+                  - /url: /free
+                - img [ref=e401]
+              - generic [ref=e402]:
+                - generic [ref=e405]: Остались вопросы — мы поможем
+                - button "Получить консультацию" [ref=e406] [cursor=pointer]
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - heading "От домашних заданий — к новым проектам" [level=2] [ref=e409]
+              - generic [ref=e410]: "Рассказываем за 2 минуты про путь наших студентов: через сложности — к решениям и реальным результатам"
+            - generic [ref=e411] [cursor=pointer]:
+              - button [ref=e414]:
+                - img [ref=e415]
+              - generic [ref=e417]: 2:10
+          - generic [ref=e418]:
+            - heading "Как Нетология помогает достигать ваших целей" [level=2] [ref=e419]
+            - generic [ref=e420]:
+              - generic [ref=e421]:
+                - img "Закрепление теории на реальных кейсах" [ref=e422]
+                - generic [ref=e423]:
+                  - heading "Закрепление теории на реальных кейсах" [level=3] [ref=e425]
+                  - generic [ref=e426]: Практика от партнёров вдобавок к привычным заданиям — бизнес-игры, митапы, хакатоны, pet-проекты. Вы получите ценный опыт и сможете выгодно выделяться на рынке.
+              - generic [ref=e428]:
+                - heading "Более 100 бесплатных материалов" [level=3] [ref=e430]
+                - generic [ref=e431]: Образовательные продукты, которые ежегодно помогают 5 000 студентов найти свой вектор развития. Сможете найти комфортный для себя формат.
+              - generic [ref=e432]:
+                - img "Удобная платформа" [ref=e433]
+                - generic [ref=e434]:
+                  - heading "Удобная платформа" [level=3] [ref=e436]
+                  - generic [ref=e437]: "Всё, что нужно для эффективной учёбы: планировщик, календарь, игры, тренажёры. А с мобильным приложением материалы будут всегда под рукой."
+              - generic [ref=e438]:
+                - img "Поддержка целой команды" [ref=e439]
+                - generic [ref=e440]:
+                  - heading "Поддержка целой команды" [level=3] [ref=e442]
+                  - generic [ref=e443]: Оперативная связь с преподавателями, координаторами, аспирантами и техническими специалистами. Вы не останетесь с трудностями наедине.
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - heading "Вдохновитесь историями наших выпускников" [level=2] [ref=e446]
+              - generic [ref=e447]:
+                - button [ref=e448] [cursor=pointer]:
+                  - img [ref=e449]
+                - button [ref=e451] [cursor=pointer]:
+                  - img [ref=e452]
+            - generic [ref=e457]:
+              - generic [ref=e461] [cursor=pointer]:
+                - generic [ref=e462]:
+                  - img [ref=e463]
+                  - img [ref=e465]
+                  - generic [ref=e467]: 2:46
+                - generic [ref=e468]: Из скрипача в Python-разработчика
+                - generic [ref=e469]: Как разглядеть творчество в Питоне и побороть страхи
+              - generic [ref=e473] [cursor=pointer]:
+                - generic [ref=e474]:
+                  - img [ref=e475]
+                  - img [ref=e477]
+                  - generic [ref=e479]: 2:14
+                - generic [ref=e480]: С завода в UX/UI-дизайн
+                - generic [ref=e481]: Как попасть в команду мечты сразу после обучения
+              - generic [ref=e485] [cursor=pointer]:
+                - generic [ref=e486]:
+                  - img [ref=e487]
+                  - img [ref=e489]
+                  - generic [ref=e491]: 3:36
+                - generic [ref=e492]: Из авиации в BI-аналитику
+                - generic [ref=e493]: Как выбрать востребованную профессию, которая понравится
+              - generic [ref=e497] [cursor=pointer]:
+                - generic [ref=e498]:
+                  - img [ref=e499]
+                  - img [ref=e501]
+                  - generic [ref=e503]: 3:39
+                - generic [ref=e504]: Из юриспруденции в маркетинг
+                - generic [ref=e505]: Почему рискнув, можно стать руководителем
+              - generic [ref=e509] [cursor=pointer]:
+                - generic [ref=e510]:
+                  - img [ref=e511]
+                  - img [ref=e513]
+                  - generic [ref=e515]: 3:16
+                - generic [ref=e516]: В диджитал после 35
+                - generic [ref=e517]: Как применить опыт в новой сфере и сделать возраст преимуществом
+              - generic [ref=e521] [cursor=pointer]:
+                - generic [ref=e522]:
+                  - img [ref=e523]
+                  - img [ref=e525]
+                  - generic [ref=e527]: 3:10
+                - generic [ref=e528]: Из небольшого города в московскую компанию
+                - generic [ref=e529]: Как работать на 2 города и получать удовольствие от учёбы
+              - generic [ref=e533] [cursor=pointer]:
+                - generic [ref=e534]:
+                  - img "Из скрипача в Python-разработчика" [ref=e535]
+                  - img [ref=e537]
+                  - generic [ref=e539]: 2:46
+                - generic [ref=e540]: Из скрипача в Python-разработчика
+                - generic [ref=e541]: Как разглядеть творчество в Питоне и побороть страхи
+              - generic [ref=e545] [cursor=pointer]:
+                - generic [ref=e546]:
+                  - img "С завода в UX/UI-дизайн" [ref=e547]
+                  - img [ref=e549]
+                  - generic [ref=e551]: 2:14
+                - generic [ref=e552]: С завода в UX/UI-дизайн
+                - generic [ref=e553]: Как попасть в команду мечты сразу после обучения
+              - generic [ref=e557] [cursor=pointer]:
+                - generic [ref=e558]:
+                  - img "Из авиации в BI-аналитику" [ref=e559]
+                  - img [ref=e561]
+                  - generic [ref=e563]: 3:36
+                - generic [ref=e564]: Из авиации в BI-аналитику
+                - generic [ref=e565]: Как выбрать востребованную профессию, которая понравится
+              - generic [ref=e569] [cursor=pointer]:
+                - generic [ref=e570]:
+                  - img [ref=e571]
+                  - img [ref=e573]
+                  - generic [ref=e575]: 3:39
+                - generic [ref=e576]: Из юриспруденции в маркетинг
+                - generic [ref=e577]: Почему рискнув, можно стать руководителем
+              - generic [ref=e581] [cursor=pointer]:
+                - generic [ref=e582]:
+                  - img [ref=e583]
+                  - img [ref=e585]
+                  - generic [ref=e587]: 3:16
+                - generic [ref=e588]: В диджитал после 35
+                - generic [ref=e589]: Как применить опыт в новой сфере и сделать возраст преимуществом
+              - generic [ref=e593] [cursor=pointer]:
+                - generic [ref=e594]:
+                  - img [ref=e595]
+                  - img [ref=e597]
+                  - generic [ref=e599]: 3:10
+                - generic [ref=e600]: Из небольшого города в московскую компанию
+                - generic [ref=e601]: Как работать на 2 города и получать удовольствие от учёбы
+              - generic [ref=e605] [cursor=pointer]:
+                - generic [ref=e606]:
+                  - img [ref=e607]
+                  - img [ref=e609]
+                  - generic [ref=e611]: 2:46
+                - generic [ref=e612]: Из скрипача в Python-разработчика
+                - generic [ref=e613]: Как разглядеть творчество в Питоне и побороть страхи
+              - generic [ref=e617] [cursor=pointer]:
+                - generic [ref=e618]:
+                  - img [ref=e619]
+                  - img [ref=e621]
+                  - generic [ref=e623]: 2:14
+                - generic [ref=e624]: С завода в UX/UI-дизайн
+                - generic [ref=e625]: Как попасть в команду мечты сразу после обучения
+              - generic [ref=e629] [cursor=pointer]:
+                - generic [ref=e630]:
+                  - img [ref=e631]
+                  - img [ref=e633]
+                  - generic [ref=e635]: 3:36
+                - generic [ref=e636]: Из авиации в BI-аналитику
+                - generic [ref=e637]: Как выбрать востребованную профессию, которая понравится
+              - generic [ref=e641] [cursor=pointer]:
+                - generic [ref=e642]:
+                  - img [ref=e643]
+                  - img [ref=e645]
+                  - generic [ref=e647]: 3:39
+                - generic [ref=e648]: Из юриспруденции в маркетинг
+                - generic [ref=e649]: Почему рискнув, можно стать руководителем
+              - generic [ref=e653] [cursor=pointer]:
+                - generic [ref=e654]:
+                  - img [ref=e655]
+                  - img [ref=e657]
+                  - generic [ref=e659]: 3:16
+                - generic [ref=e660]: В диджитал после 35
+                - generic [ref=e661]: Как применить опыт в новой сфере и сделать возраст преимуществом
+              - generic [ref=e665] [cursor=pointer]:
+                - generic [ref=e666]:
+                  - img [ref=e667]
+                  - img [ref=e669]
+                  - generic [ref=e671]: 3:10
+                - generic [ref=e672]: Из небольшого города в московскую компанию
+                - generic [ref=e673]: Как работать на 2 города и получать удовольствие от учёбы
+          - generic [ref=e674]:
+            - generic [ref=e675]:
+              - heading "Получите консультацию" [level=2] [ref=e676]
+              - generic [ref=e677]: Наши менеджеры помогут выбрать направление, расскажут о форматах и программах обучения
+            - generic [ref=e678]:
+              - textbox "Имя" [ref=e680]
+              - textbox "+7 (999) 999-99-99" [ref=e682]
+              - textbox "Электронная почта" [ref=e684]
+              - button "Получить консультацию" [ref=e685] [cursor=pointer]
+              - generic [ref=e686]:
+                - generic [ref=e687]:
+                  - checkbox "Принимаю условия пользовательского соглашения" [ref=e688]
+                  - generic [ref=e689] [cursor=pointer]:
+                    - generic [ref=e691]:
+                      - generic:
+                        - img
+                    - generic [ref=e694]:
+                      - text: Принимаю условия
+                      - link "пользовательского соглашения" [ref=e695]:
+                        - /url: /legal/6
+                - generic [ref=e696]:
+                  - checkbox "Хочу получать новости и актуальные предложения" [checked] [ref=e697]
+                  - generic [ref=e698] [cursor=pointer]:
+                    - img [ref=e702]
+                    - generic [ref=e706]:
+                      - text: Хочу получать
+                      - link "новости и актуальные предложения" [ref=e707]:
+                        - /url: /legal/705
+      - contentinfo [ref=e708]:
+        - generic [ref=e709]:
+          - generic [ref=e710]:
+            - generic [ref=e711]:
+              - link [ref=e712] [cursor=pointer]:
+                - /url: /
+              - generic [ref=e713]:
+                - link [ref=e714] [cursor=pointer]:
+                  - /url: https://vk.com/netology
+                - link [ref=e715] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@neto_live
+                - link [ref=e716] [cursor=pointer]:
+                  - /url: https://tgrm.github.io/netology_ru
+                - link [ref=e717] [cursor=pointer]:
+                  - /url: https://ok.ru/netology
+                - link [ref=e718] [cursor=pointer]:
+                  - /url: https://tenchat.ru/netology
+            - generic [ref=e719]:
+              - generic [ref=e721]:
+                - text: Наведите камеру и скачайте бесплатное
+                - link "приложение" [ref=e722] [cursor=pointer]:
+                  - /url: https://netology.ru/netologyapp
+                - text: Нетологии
+              - generic [ref=e723]:
+                - link [ref=e724] [cursor=pointer]:
+                  - /url: https://redirect.appmetrica.yandex.com/serve/245022615587059853
+                  - img [ref=e725]
+                - link [ref=e731] [cursor=pointer]:
+                  - /url: https://apps.rustore.ru/app/ru.netology
+                  - img [ref=e732]
+                - link [ref=e739] [cursor=pointer]:
+                  - /url: https://redirect.appmetrica.yandex.com/serve/533252994188193869
+                  - img [ref=e740]
+                - link [ref=e743] [cursor=pointer]:
+                  - /url: https://storage.yandexcloud.net/apk-file/netology_release.apk
+                  - img [ref=e744]
+            - generic [ref=e747]:
+              - link "Подписка на рассылку" [ref=e750] [cursor=pointer]:
+                - /url: /sub
+              - link "Подписка через RSS" [ref=e753] [cursor=pointer]:
+                - /url: /blog/rss.xml
+              - generic [ref=e754]:
+                - link "+7 (495) 152-55-28" [ref=e755] [cursor=pointer]:
+                  - /url: tel:+74951525528
+                - generic [ref=e756]: По вопросам покупки курсов
+              - generic [ref=e757]:
+                - link "+7 (495) 085-96-81" [ref=e758] [cursor=pointer]:
+                  - /url: tel:+74950859681
+                - generic [ref=e759]: Для корпоративных клиентов
+              - generic [ref=e760]:
+                - generic [ref=e761]:
+                  - link "Писать в чат" [ref=e762] [cursor=pointer]:
+                    - /url: "?modal=support&type=new-ticket"
+                  - text: "или на почту:"
+                  - link "support@netology.ru" [ref=e763] [cursor=pointer]:
+                    - /url: mailto:support@netology.ru
+                - generic [ref=e764]: Для действующих студентов
+              - generic [ref=e765]: Москва, Варшавское шоссе, д. 1, стр. 6, 3 этаж, офис 315А
+            - generic [ref=e766]: © Нетология, 2011‐2026
+          - generic [ref=e767]:
+            - generic [ref=e768]:
+              - generic [ref=e769]: Информация
+              - generic [ref=e770]:
+                - link "О компании" [ref=e773] [cursor=pointer]:
+                  - /url: /about
+                - link "Привести друга" [ref=e776] [cursor=pointer]:
+                  - /url: /affiliate
+                - link "Партнёрская программа" [ref=e779] [cursor=pointer]:
+                  - /url: /affiliate#partners
+                - link "Экспертам" [ref=e782] [cursor=pointer]:
+                  - /url: /experts
+                - link "Работа в Нетологии" [ref=e785] [cursor=pointer]:
+                  - /url: /netology-team
+                - link "Вакансии Нетологии" [ref=e788] [cursor=pointer]:
+                  - /url: /job
+                - link "Правовая информация" [ref=e791] [cursor=pointer]:
+                  - /url: /legal
+                - link "Сведения об образовательной организации" [ref=e794] [cursor=pointer]:
+                  - /url: /official-info
+                - link "Контакты" [ref=e797] [cursor=pointer]:
+                  - /url: /contacts
+                - link "Отзывы" [ref=e800] [cursor=pointer]:
+                  - /url: /otzyvy
+            - generic [ref=e801]:
+              - generic [ref=e802]: Обучение
+              - generic [ref=e803]:
+                - link "Учиться бесплатно" [ref=e806] [cursor=pointer]:
+                  - /url: /free
+                - link "Каталог курсов" [ref=e809] [cursor=pointer]:
+                  - /url: /navigation
+                - link "Популярные курсы" [ref=e812] [cursor=pointer]:
+                  - /url: /popular
+                - link "Тесты" [ref=e815] [cursor=pointer]:
+                  - /url: /tests
+                - link "Маркетинг" [ref=e818] [cursor=pointer]:
+                  - /url: /marketing
+                - link "Бизнес и управление" [ref=e821] [cursor=pointer]:
+                  - /url: /management
+                - link "Дизайн и UX" [ref=e824] [cursor=pointer]:
+                  - /url: /design
+                - link "Программирование" [ref=e827] [cursor=pointer]:
+                  - /url: /development
+                - link "Аналитика" [ref=e830] [cursor=pointer]:
+                  - /url: /data-science
+                - link "Управление командой" [ref=e833] [cursor=pointer]:
+                  - /url: /soft-skills
+                - link "Высшее образование" [ref=e836] [cursor=pointer]:
+                  - /url: /degree
+                - link "Творческие профессии" [ref=e839] [cursor=pointer]:
+                  - /url: /creative
+                - link "Профессии в образовании" [ref=e842] [cursor=pointer]:
+                  - /url: /edmarket
+                - link "Корпоративное обучение" [ref=e845] [cursor=pointer]:
+                  - /url: /programs/b2b
+                - link "Новые профессии" [ref=e848] [cursor=pointer]:
+                  - /url: /new-courses
+                - link "Маркетплейсы" [ref=e851] [cursor=pointer]:
+                  - /url: /marketplaces
+                - link "Финансы и инвестиции" [ref=e854] [cursor=pointer]:
+                  - /url: /finance
+                - link "Компьютерные игры" [ref=e857] [cursor=pointer]:
+                  - /url: /gamedesign-academy
+                - link "Саморазвитие и хобби" [ref=e860] [cursor=pointer]:
+                  - /url: /lifestyle-hobby
+                - link "Медицина и здоровье" [ref=e863] [cursor=pointer]:
+                  - /url: /medicine
+                - link "Нейросети" [ref=e866] [cursor=pointer]:
+                  - /url: /ai-courses
+                - link "Психология" [ref=e869] [cursor=pointer]:
+                  - /url: /programs/psychology
+                - link "Программы с вузами" [ref=e872] [cursor=pointer]:
+                  - /url: /degree
+            - generic [ref=e873]:
+              - generic [ref=e874]: Проекты
+              - generic [ref=e875]:
+                - link "Медиа Нетологии" [ref=e878] [cursor=pointer]:
+                  - /url: https://netology.ru/blog/
+                - link "Центр развития карьеры" [ref=e881] [cursor=pointer]:
+                  - /url: https://netology.ru/students
+                - 'link "Бизнесу: найти исполнителя" [ref=e884] [cursor=pointer]':
+                  - /url: https://netology.ru/partnership
+                - 'link "Вузам и колледжам: онлайн-курсы" [ref=e887] [cursor=pointer]':
+                  - /url: https://netology.ru/programs/discipliny-i-moduli
+                - link "Подарочный сертификат" [ref=e890] [cursor=pointer]:
+                  - /url: https://l.netology.ru/sertificate_users
+                - link "Глоссарий" [ref=e893] [cursor=pointer]:
+                  - /url: /glossariy
+                - link "Обучение для НКО" [ref=e896] [cursor=pointer]:
+                  - /url: https://netology.ru/learn-to-help
+                - link "Комьюнити в Нетологии" [ref=e899] [cursor=pointer]:
+                  - /url: https://netology.ru/community
+              - generic [ref=e900]:
+                - link "Государственная лицензия" [ref=e901] [cursor=pointer]:
+                  - /url: /license
+                  - generic [ref=e903]:
+                    - text: Государственная
+                    - text: лицензия
+                - link [ref=e904] [cursor=pointer]:
+                  - /url: https://sk.ru
+              - link "Сайт Минобрнауки России" [ref=e907] [cursor=pointer]:
+                - /url: https://minobrnauki.gov.ru
+              - link "Сайт Минпросвещения России" [ref=e910] [cursor=pointer]:
+                - /url: https://edu.gov.ru
+              - generic [ref=e911] [cursor=pointer]:
+                - img [ref=e912]
+                - text: Версия для слабовидящих
+    - img [ref=e918] [cursor=pointer]
+  - alert [ref=e920]
+  - iframe [ref=e921]:
+    
+  - iframe [ref=e922]:
+    - generic [active]:
+      - img [ref=f16e1]
+      - img [ref=f16e2]
+      - img [ref=f16e3]
+      - img [ref=f16e4]
+      - img [ref=f16e5]
+      - img [ref=f16e6]
+      - img [ref=f16e7]
+      - img [ref=f16e8]
+      - img [ref=f16e9]
+      - img [ref=f16e10]
+      - img [ref=f16e11]
+      - img [ref=f16e12]
+      - img [ref=f16e13]
+      - img [ref=f16e14]
+      - img [ref=f16e15]
+      - img [ref=f16e16]
+      - img [ref=f16e17]
+      - img [ref=f16e18]
+      - img [ref=f16e19]
+      - img [ref=f16e20]
+      - img [ref=f16e21]
+      - img [ref=f16e22]
+      - img [ref=f16e23]
+      - img [ref=f16e24]
+      - img [ref=f16e25]
+      - img [ref=f16e26]
+      - img [ref=f16e27]
+      - img [ref=f16e28]
+      - img [ref=f16e29]
+      - img [ref=f16e30]
+      - img [ref=f16e31]
+      - img [ref=f16e32]
+      - img [ref=f16e33]
+      - img [ref=f16e34]
+      - img [ref=f16e35]
+      - img [ref=f16e36]
+      - img [ref=f16e37]
+      - img [ref=f16e38]
+      - img [ref=f16e39]
+      - img [ref=f16e40]
+      - img [ref=f16e41]
+      - img [ref=f16e42]
+      - img [ref=f16e43]
+      - img [ref=f16e44]
+      - img [ref=f16e45]
+      - img [ref=f16e46]
+  - img [ref=e923]
+  - iframe [active] [ref=e926]:
+    - dialog [ref=f20e6]:
+      - generic [ref=f20e8]:
+        - generic [ref=f20e10]:
+          - img "Image challenge"
+        - generic [ref=f20e11]:
+          - generic [ref=f20e12]: "Press in the following order:"
+          - img
+          - img
+        - generic [ref=f20e13]:
+          - button "Refresh challenge" [ref=f20e14]:
+            - img
+          - button "Change challenge type" [ref=f20e15]:
+            - img
+          - link "Information about SmartCaptcha" [ref=f20e16] [cursor=pointer]:
+            - /url: https://yandex.com/support/smart-captcha/problems.html
+            - img
+          - button "Submit" [ref=f20e17]:
+            - generic [ref=f20e19]: Submit
+        - generic [ref=f20e21]:
+          - button "Show links" [ref=f20e22]:
+            - img [ref=f20e23]
+          - link "SmartCaptcha by Yandex Cloud" [ref=f20e26] [cursor=pointer]:
+            - /url: https://yandex.cloud/en/services/smartcaptcha?utm_source=smart-captcha&utm_medium=img&utm_campaign=security
+      - button "close" [active] [ref=f20e27] [cursor=pointer]:
+        - img [ref=f20e28]
+```

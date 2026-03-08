@@ -7,3 +7,8 @@ node_modules/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+**/user.js
+playwright-report/
+*.jpeg
+*.mp4
+*.jpg

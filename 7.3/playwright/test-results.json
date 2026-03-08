@@ -1,0 +1,332 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\playwright.config.js",
+    "rootDir": "C:/Users/olgaz/Desktop/Jsaqa-code/7.3/playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/olgaz/Desktop/Jsaqa-code/7.3/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/olgaz/Desktop/Jsaqa-code/7.3/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "App.spec.js",
+      "file": "App.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 37414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-08T12:26:36.469Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\App-test-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\App-test-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\App-test-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cb1ad23494af7a127ac8-70f8c80654b6849eb544",
+          "file": "App.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "netology-auth.spec.js",
+      "file": "netology-auth.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Авторизация на Netology.ru",
+          "file": "netology-auth.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Успешная авторизация",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 73630,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Запускаем браузер и открываем Netology...\n"
+                        },
+                        {
+                          "text": "Модальное окно авторизации открыто\n"
+                        },
+                        {
+                          "text": "Тест: Успешная авторизация\n"
+                        },
+                        {
+                          "text": "Выбрали вход по почте\n"
+                        },
+                        {
+                          "text": "Ввели email\n"
+                        },
+                        {
+                          "text": "Ввели пароль\n"
+                        },
+                        {
+                          "text": "Сделали скриншот перед отправкой\n"
+                        },
+                        {
+                          "text": "Нажали кнопку Войти\n"
+                        },
+                        {
+                          "text": "Сделали скриншот после отправки\n"
+                        },
+                        {
+                          "text": "Капча или ошибка авторизации\n"
+                        },
+                        {
+                          "text": "Текст ошибки: \u001b[1mnull\u001b[22m\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-08T12:27:17.833Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--596da-ogy-ru-Успешная-авторизация-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--596da-ogy-ru-Успешная-авторизация-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--596da-ogy-ru-Успешная-авторизация-chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--596da-ogy-ru-Успешная-авторизация-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6fadc5e61e6dca0b465b-8feb8cbaa493b3270dde",
+              "file": "netology-auth.spec.js",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "Неуспешная авторизация",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 74077,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\tests\\netology-auth.spec.js",
+                            "column": 16,
+                            "line": 105
+                          },
+                          "message": "Error: page.screenshot: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n\n\u001b[0m \u001b[90m 103 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m8000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 104 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({ path\u001b[33m:\u001b[39m \u001b[32m'screenshot_after_failed_login.png'\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m\n \u001b[90m 107 |\u001b[39m     \u001b[36mconst\u001b[39m errorSelectors \u001b[33m=\u001b[39m [\n \u001b[90m 108 |\u001b[39m       \u001b[32m\"Вы ввели неправильно логин или пароль\"\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\tests\\netology-auth.spec.js:105:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Запускаем браузер и открываем Netology...\n"
+                        },
+                        {
+                          "text": "Модальное окно авторизации открыто\n"
+                        },
+                        {
+                          "text": "Тест: Неуспешная авторизация\n"
+                        },
+                        {
+                          "text": "Отправили неверные данные\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-08T12:28:41.710Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--145b8-y-ru-Неуспешная-авторизация-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--145b8-y-ru-Неуспешная-авторизация-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--145b8-y-ru-Неуспешная-авторизация-chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\olgaz\\Desktop\\Jsaqa-code\\7.3\\playwright\\test-results\\netology-auth-Авторизация--145b8-y-ru-Неуспешная-авторизация-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6fadc5e61e6dca0b465b-5ae032ea291582147652",
+              "file": "netology-auth.spec.js",
+              "line": 86,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-08T12:26:32.451Z",
+    "duration": 210604.686,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}
